@@ -18,8 +18,11 @@ Cordova - version 9.0.0
 1. il faut d'abord recupèrer le projet avec la commande suivante
 
 `git clone https://github.com/2boubacar10/ionic4_image_picker_upload.git`
+
 2. `cd ionic4_image_picker_upload`
+
 3. `npm install`
+
 4. `ionic serve` ou `ionic cordova build android` pour générer l'apk ou `ionic cordova run android` pour lancer l'application sur votre émulateur
 
 
