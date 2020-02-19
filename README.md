@@ -26,16 +26,16 @@ Cordova - version 9.0.0
 4. `ionic serve` ou `ionic cordova build android` pour générer l'apk ou `ionic cordova run android` pour lancer l'application sur votre émulateur
 
 
+### Fonctionnalités
+
+- bouton pour choisir les images
+- zone pour afficher les images
+- bouton pour envoyer les images sur le serveur
+
+
 ### Screen Shots
 
 <img src="screenshots/1.png" alt="accueil application" width="376">
 <img src="screenshots/2.png" alt="choix des images" width="376">
 <img src="screenshots/3.png" alt="chargement des images" width="376">
 <img src="screenshots/4.png" alt="images chargées sur le serveur" width="376">
-
-
-### Fonctionnalités
-
-- bouton pour choisir les images
-- zone pour afficher les images
-- bouton pour envoyer les images sur le serveur
