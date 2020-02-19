@@ -89,7 +89,7 @@ export class HomePage {
 
   async uploadImageData(formData: FormData) {
     const loading = await this.loadingController.create({
-        message: 'Uploading image...',
+        message: 'Envoi des images en cours...',
     });
     await loading.present();
  
