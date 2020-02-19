@@ -16,6 +16,7 @@ Cordova - version 9.0.0
 ### Getting Started / Pour commencer
 
 1. il faut d'abord recupèrer le projet avec la commande suivante
+
 `git clone https://github.com/2boubacar10/ionic4_image_picker_upload.git`
 2. `cd ionic4_image_picker_upload`
 3. `npm install`
