@@ -1,0 +1,7 @@
+{
+  "name": "Ionic4ImagePic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
