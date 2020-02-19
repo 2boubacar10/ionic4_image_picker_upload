@@ -8,18 +8,13 @@ ini_set("error_log", "logs/erreurs.log");
 
 
 
+if(isset($_POST['image'])){
 $tableauImages = json_decode($_POST['image']);
-echo json_encode($tableauImages);
-
-
+//echo json_encode($tableauImages);
 
 foreach ($tableauImages as $key => $value) {
 	// baseFromJavascript will be the javascript base64 string retrieved of some way (async or post submited)
 	$baseFromJavascript = $value;
-
-	json_encode($value);
-
-	/*
 
 	// $_POST['base64']; //your data in base64 'data:image/png....';
 	// We need to remove the "data:image/png;base64,"
@@ -32,8 +27,6 @@ foreach ($tableauImages as $key => $value) {
 
 	// Save the image in a defined path
 	file_put_contents($filepath,$data);
-
-	*/
 }
 
 
@@ -58,3 +51,6 @@ file_put_contents($filepath,$data);
 
 //fin code qui marche pour la première image
 */
+}else{
+	echo json_encode("aucune image n'a été envoyée");
+}
